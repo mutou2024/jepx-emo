@@ -3,6 +3,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+   base: '/jepx-emo/', // ← 同样是仓库名
   plugins: [vue()],
   server: {
     open: true, // 启动项目自动打开浏览器
